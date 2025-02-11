@@ -1,21 +1,26 @@
-# Care-Share
+# CareShare
 
+## Overview
 
-A web application which is useful for management of food donation and collection activities.  
+CareShare is a web-based food donation management system built with Django. It facilitates the connection between food donors and organizations helping people in need, making the process of food donation more efficient and accessible.
 
-<img src="https://user-images.githubusercontent.com/86913048/226953269-e6ae0484-ab78-4c77-b199-aef793502d8d.png" width="70%">
+## Project Details
+
+- **Duration**: November 2024 - December 2024
+- **Institution**: GL Bajaj Institute of Technology and Management (GLBITM)
+
 
 ## Table of Contents
 
-- [Installation and setup](#installation-and-setup)
+- [Installation](#installation)
 - [Features](#features)
-- [Technologies used](#technologies-used)
-- [npm packages used](#npm-packages-used)
-- [Prerequisites](#prerequisites)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
 - [Useful Links](#useful-links)
 - [Contact](#contact)
 
-## Installation and Setup
+## Installation
 
 1. Install all the dependencies
    ```sh
@@ -34,13 +39,11 @@ A web application which is useful for management of food donation and collection
 
 ## Features
 
-- The system consists of three types of users: admins, donors and agents.
-- Admins: They control all the activities and accept/reject donations and select agents.
-- Donors: They are the driving users of the application who donate food.
-- Agents: They are responsible for collecting food from homes of food donors.
-- Each user should have an account.
-- Every user also have a dashboard where they can view several things in short summary.
-- The application provides signup, login and logout functionalities.
+- User-friendly interface for donors and recipient organizations
+- Secure authentication system
+- Efficient food donation management
+- Real-time tracking of donations
+- Community engagement features
 
 ### Donor Features
 
@@ -67,58 +70,29 @@ A web application which is useful for management of food donation and collection
 - Agents can also view all those food donations which have been collected by them previously.
 - Agents can update their profile.
 
-## Technologies used
+## Technologies Used
 
-- HTML
-- CSS
-- Bootstrap
-- Javascript
-- Node.js
-- Express.js
-- Mongodb
-- ejs
+- **Backend**: Node.js, Express.js
+- **Frontend**: HTML, CSS, JavaScript, Bootstrap, EJS
+- **Database**: MongoDB
 
-## npm packages used
+## Contributing
 
-- express
-- ejs
-- express-ejs-layouts
-- mongoose
-- express-session
-- bcryptjs
-- passport
-- passport-local
-- connect-flash
-- method-override
-- dotenv
+We welcome contributions to improve CareShare. Please follow these steps:
+1. Fork the repository
+2. Create a new branch
+3. Make your changes
+4. Submit a pull request
 
-## Prerequisites
+## License
 
-For running the application:
-
-- Node.js must be installed on the system.
-- You should have a MongoDB database.
-- You should have a code editor (preferred: VS Code)
-
-## Useful Links
-
-- Demo: https://food-aid-aayush.herokuapp.com/
-- Github Repo: https://github.com/aayush301/Food-donation-management-system
-- Nodejs download: https://nodejs.org/
-- VS Code download: https://code.visualstudio.com/
-- Tutorials: https://www.w3schools.com/
-- npmjs docs: https://docs.npmjs.com/
-- Expressjs docs: https://expressjs.com/
-- Bootstrap docs: https://getbootstrap.com/docs/5.1/getting-started/introduction/
-- Mongoosejs docs: https://mongoosejs.com/docs/index.html
-- Mongodb atlas: https://www.mongodb.com/cloud/atlas/register
-- Mongodb docs: https://docs.mongodb.com/manual/introduction/
-- Nodemailer docs: https://nodemailer.com/
-- Github docs: https://docs.github.com/en/get-started/quickstart/hello-world
-- Git cheatsheet: https://education.github.com/git-cheat-sheet-education.pdf
-- VS Code keyboard shortcuts: https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contact
 
-- Email: aashutoshkumarsingh71@gmail.com
-- Linkedin: https://www.linkedin.com/in/aashutosh-kumar-singh-61b492259/
+- **Name**: Ashutosh Kumar Singh
+- **Email**: aashutoshkumarsingh71@gmail.com
+- **LinkedIn**: https://www.linkedin.com/in/aashutosh-kumar-singh-61b492259/
+
+---
+© 2025 CareShare. All rights reserved.
