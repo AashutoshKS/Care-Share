@@ -6,6 +6,7 @@ CareShare is a web-based food donation management system built with Django. It f
 
 ## Project Details
 
+- **Live Link**: https://care-share.onrender.com/
 - **Duration**: November 2024 - December 2024
 - **Institution**: GL Bajaj Institute of Technology and Management (GLBITM)
 
