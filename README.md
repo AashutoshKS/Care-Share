@@ -2,7 +2,7 @@
 
 ## Overview
 
-CareShare is a web-based food donation management system built with Django. It facilitates the connection between food donors and organizations helping people in need, making the process of food donation more efficient and accessible.
+CareShare is a web-based food donation management system built with Java Script. It facilitates the connection between food donors and organizations helping people in need, making the process of food donation more efficient and accessible.
 
 ## Project Details
 
